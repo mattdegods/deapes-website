@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: yellowtail;
+  src: url('./fonts/Yellowtail-Regular.ttf');
+}
+
+@font-face {
+  font-family: jose;
+  src: url('./fonts/JosefinSans-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: caveat;
+  src: url('./fonts/Caveat.ttf');
+}
+
+@font-face {
+  font-family: merriweather;
+  src: url('./fonts/Merriweather-Light.ttf');
+}
+
+@font-face {
+  font-family: opensans;
+  src: url('./fonts/OpenSans-VariableFont.ttf');
+}
+
+* {
+  font-family: jose, monospace;
+}
+
+body {
+  background: #7e02e6;
+}
+
+h1 {
+  font-family: yellowtail, monospace;
+  font-size: 120px;
+}
+
+h2 {
+  font-family: yellowtail, monospace;
+  font-size: 32px;
+}
+
+p {
+  font-family: jose, monospace;
+  font-size: 24px;
+}
+
+span {
+  font-family: opensans, monospace;
+  font-size: 35px;
+}
+
+@media (max-width: 600px) {
+  p, span {
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+}
+
